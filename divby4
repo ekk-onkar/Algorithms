@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+#include <stdio.h>
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+	int x;
+	cin>>x;
+	if(x%4==0)
+	{
+	    cout<<"divisible by 4";
+	}
+	else
+	{
+	    cout<<"not divisible by 4";
+	}
+	return 0;
+}
